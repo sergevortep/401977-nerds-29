@@ -3,13 +3,221 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Профессиональная дизайн-студия по созданию сайтов">
+  <meta name="keywords" content="студия, дизайн, создание сайтов">
   <title>Нёрдс</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="outlines.css">
 </head>
 
 <body>
+  <!--Шапка сайта начало-->
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип нердс" />
+      </a>
+      <ul class="navigation-list">
+        <li><a class="" href="#">Студия</a></li>
+        <li><a class="" href="#">Клиенты</a></li>
+        <li><a class="" href="catalog.html">Магазин</a></li>
+        <li><a class="" href="#">Контакты</a></li>
+      </ul>
+      <ul class="cart-list">
+        <li><a href="#">Корзина</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Шапка сайта конец-->
+  <!--Основной контент начало-->
+  <main class="container">
+    <h1 class="visually-hidden">Дизайн студия нёрдс</h1>
+    <!--Секция слайдера начало-->
+    <section class="main-slider">
+      <div class="radio-slider-buttons">
+        <a href="#" class="radio-button radio-active-button">переключатель 1</a>
+        <a href="#" class="radio-button">переключатель 2</a>
+        <a href="#" class="radio-button">переключатель 2</a>
+      </div>
+      <div class="wrapper-slider-1">
+        <h2 class="visually-hidden">Слайдер товаров</h2>
+        <div class="info-slider info-slider-active">
+          <h3 class="h3-slider h3-slider-active">Долго, дорого, скрупулезно.</h3>
+          <p class="p-slider p-slider-active">
+            Математически выверенный дизайн
+            для вашего сайта или мобильного приложения.
+          </p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="img-slider img-slider-active">
+          <img src="img/slide1.png" width="698" height="413" alt="картинка слайдера_1" />
+        </div>
+      </div>
+      <div class="wrapper-slider-2 visually-hidden">
+        <div class="info-slider">
+          <h3 class="h3-slider">Любим математику как никто другой</h3>
+          <p class="p-slider">
+            Никакого креатива, только математические формулы для расчета
+            идеальных пропорций.
+          </p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="img-slider">
+          <img src="img/slide2.png" width="698" height="413" alt="картинка слайдера_2" />
+        </div>
+      </div>
+      <div class="wrapper-slider-3 visually-hidden">
+        <div class="info-slider">
+          <h3 class="h3-slider">Только ночь, только хардкор</h3>
+          <p class="p-slider">
+            Работать днем, как все? Мы против этого. Ближе к полуночи работа
+            только начинается.
+          </p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="img-slider">
+          <img src="img/slide3.png" width="698" height="413" alt="картинка слайдера_3" />
+        </div>
+      </div>
+    </section>
+    <!--Секция слайдера конец-->
 
-  <p>попытка работать с консолью</a>».</p>
+    <!--Секция услуг начало-->
+    <section class="main-service">
+      <h2 class="visually-hidden">Наши услуги</h2>
+      <div class="wrapper-service">
+        <div class="item-service item-service-1">
+          <img src="img/labtop.jpg" width="300" height="146" alt="ноутбук">
+          <h3>Веб-сайты</h3>
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+        <div class="item-service item-service-2">
+          <img src="img/smart.jpg" width="300" height="146" alt="смартфоны">
+          <h3>Приложения</h3>
+          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+        <div class="item-service item-service-3">
+          <img src="img/board.jpg" width="300" height="146" alt="доска">
+          <h3>Презентации</h3>
+          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+      </div>
+    </section>
+    <!--Секция услуг конец-->
 
+    <!--Секция о нас начало-->
+    <section class="main-about-us">
+      <div class="wrapper-about-us">
+        <div class="wrap-left">
+          <b>Мы — маленькая, но гордая дизайн-студия из Краснодара</b>
+          <p class="about-us-p">
+            Исповедуем принципы минимализма и чистоты. Ставим математический
+            расчет превыше креатива. Работаем не покладая рук, как роботы.
+          </p>
+          <h3 class="about-us-h3">Выполняем заказы на разработку:</h3>
+          <ul class="about-us-ul">
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="wrap-right">
+          <img src="img/nerds.jpg" width="360" height="208" alt="доска">
+          <h3 class="table-h3">с 2004 года Любим точность во всем:</h3>
+          <table class="table">
+            <caption class="visually-hidden">Данные в процентах</caption>
+            <tr>
+              <th>146<sup>%</sup></th>
+              <th>100<sup>%</sup></th>
+              <th>50<sup>%</sup></th>
+            </tr>
+            <tr>
+              <td>Уровень самоотдачи</td>
+              <td>Соблюдение сроков</td>
+              <td>Минимальная предоплата</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!--Секция о нас конец-->
+
+    <!--Секция бренды начало-->
+    <section class="brands">
+      <div class="wrapper-brands">
+        <h2 class="visually-hidden">Бренды компаний</h2>
+        <a class="brand" href="#">
+          <img class="brand-active" src="img/logo-htmlacademy.png" width="199" height="68" alt="Логотип бренда" />
+        </a>
+        <a class="brand" href="#">
+          <img class="brand-active" src="img/logo-borodinski.png" width="209" height="90" alt="Логотип бренда" />
+        </a>
+        <a class="brand" href="#">
+          <img class="brand-active" src="img/logo-pink.png" width="185" height="52" alt="Логотип бренда" />
+        </a>
+        <a class="brand" href="#">
+          <img class="brand-active" src="img/logo-mishka.png" width="173" height="84" alt="Логотип бренда" />
+        </a>
+      </div>
+    </section>
+    <!--Секция бренды конец-->
+  </main>
+  <!--Основной контент конец-->
+
+  <!--карта начало-->
+  <section class="map">
+    <h2 class="visually-hidden">Наш адрес:</h2>
+    <a href="https://yandex.ru/maps"><img src="img/map.jpg" width="1440" height="415"
+        alt="Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" /></a>
+    <div class="modal modal-map">
+      <h2>NЁRDS DESIGN STUDIO</h2>
+      <address>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      <p>тел. +7 (812) 275-75-75</p>
+      <button type="button" class="modal">Напишите нам</button>
+    </div>
+  </section>
+  <!--карта конец-->
+  <!--Подвал сайта начало-->
+  <footer class="main-footer">
+    <h2 class="visually-hidden">Подвал</h2>
+    <div class="wrapper-footer">
+      <div class="footer-social">
+        <ul class="social-list">
+          <li><a class="social social-vkontakte" href="#" aria-label="Ссылка на ВК">vkontakte</a></li>
+          <li><a class="social social-facebook" href="#" aria-label="Ссылка на фейсбук">facebook</a></li>
+          <li><a class="social social-instagram" href="#" aria-label="Ссылка на инстаграм">instagram</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <b class="b-footer">Довайте дружить, это выгодно!</b>
+        <p class="p-footer">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <!--Подвал сайта конец-->
+  <section class="modal modal-message">
+    <h3>Напишите нам</h3>
+    <form class="appointment-form" action="#" method="POST">
+      <p class="appointment-item">
+        <label for="Your-name">Ваше имя:</label>
+        <input type="text" value="" name="name" placeholder="Имя Фамилия" id="Your-name">
+      </p>
+      <p class="appointment-form">
+        <label for="Your-mail">Ваш e-mail:</label>
+        <input type="text" value="" name="email" placeholder="email@example.com" id="Your-mail">
+      </p>
+      <p class="appointment-form">
+        <label for="Your-text">Текст письма:</label>
+        <textarea class="description" placeholder="В свободной форме" id="Your-text"></textarea>
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+    <button class="modal-close" type="button">x</button>
+  </section>
 </body>
 
 </html>
